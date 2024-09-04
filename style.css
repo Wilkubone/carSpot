@@ -1,0 +1,98 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+}
+
+header h1 {
+	margin: 0;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin: 0 10px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.hero {
+	position: relative;
+	text-align: center;
+	padding: 50px 0;
+	background-color: #fff;
+}
+
+.hero h2 {
+	margin-bottom: 20px;
+}
+
+.cars {
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+
+.car {
+	position: absolute;
+	width: 200px;
+	height: auto;
+}
+
+.car1 {
+	top: 50px;
+	left: 20%;
+	z-index: 1;
+}
+
+.car2 {
+	top: 0;
+	left: 40%;
+	z-index: 2;
+}
+
+.car3 {
+	top: 50px;
+	left: 60%;
+	z-index: 3;
+}
+
+.wavy-road {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background: url("wavy-road.png") repeat-x;
+}
+
+section {
+	padding: 20px;
+	margin: 20px;
+	background-color: #fff;
+	border-radius: 8px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
